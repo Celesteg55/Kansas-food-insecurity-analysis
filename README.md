@@ -48,12 +48,6 @@ Data downloaded from:
 
 ---
 
-## ✍️ Author
-
-**Brenda Garza**  
-Aspiring Data Analyst | Business Administration Graduate  
-📍 Based in Fort Riley, KS
-
 ## Workbook Overview
 
 The `kansas_food_insecurity_cleaned.xlsx` Excel workbook contains a comprehensive analysis of child food insecurity rates across Kansas counties from 2018 to 2022. It includes:
@@ -62,3 +56,9 @@ The `kansas_food_insecurity_cleaned.xlsx` Excel workbook contains a comprehensiv
 - PivotTables summarizing yearly average food insecurity rates statewide and detailed county-level statistics.
 - Visualizations such as line and bar charts highlighting trends over time and identifying the top 10 counties most affected in 2020.
 - An Analysis sheet providing key insights and findings, aimed at informing data-driven decisions around food security and community support programs.
+
+## ✍️ Author
+
+**Brenda Garza**  
+Aspiring Data Analyst | Business Administration Graduate  
+📍 Based in Fort Riley, KS
