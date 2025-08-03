@@ -1,11 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Brenda Garza | Data Analyst</title>
+  <meta charset="UTF-8" />
+  <title>Kansas Child Food Insecurity Analysis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #003366;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Brenda Garza's Portfolio</h1>
-  <p>This site is currently under construction. In the meantime, you can view my GitHub profile <a href="https://github.com/brendagarza" target="_blank">here</a>.</p>
+
+  <h1>Kansas Child Food Insecurity Analysis (2018–2022)</h1>
+
+  <p>This project analyzes child food insecurity rates across Kansas counties using public data from the Annie E. Casey Foundation’s <a href="https://datacenter.aecf.org/data/tables/10238-food-insecurity" target="_blank">KIDS COUNT Data Center</a>. The goal is to identify trends over time, highlight high-risk counties, and summarize findings with clean visuals using Microsoft Excel.</p>
+
+  <hr>
+
+  <h2>📌 Key Findings</h2>
+  <ul>
+    <li><strong>Wyandotte County</strong> had the highest food insecurity rate in 2020 at <strong>25.3%</strong>, followed by Montgomery (23.8%) and Geary (23.6%).</li>
+    <li>The <strong>average rate across the top 10 counties</strong> in 2020 was <strong>22.1%</strong>, significantly above the state average.</li>
+    <li><strong>Rates peaked in 2020</strong>, reflecting the impact of the COVID-19 pandemic, but began to decline in 2021–2022.</li>
+    <li><strong>Both rural and urban counties</strong> are affected, with rural areas showing more volatility year over year.</li>
+  </ul>
+
+  <hr>
+
+  <h2>📁 File Contents</h2>
+  <table>
+    <tr>
+      <th>File / Sheet</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><code>kansas_food_insecurity_analysis.xlsx</code></td>
+      <td>Full Excel workbook with all analysis</td>
+    </tr>
+    <tr>
+      <td><strong>Sheet: <code>Analysis</code></strong></td>
+      <td>Summary page with key insights and charts</td>
+    </tr>
+    <tr>
+      <td><strong>Sheet: <code>Yearly Averages</code></strong></td>
+      <td>Pivot table for statewide trend (used in line chart)</td>
+    </tr>
+    <tr>
+      <td><strong>Sheet: <code>Top Counties for a Given Year</code></strong></td>
+      <td>Pivot for county-level breakdown (used in bar chart)</td>
+    </tr>
+    <tr>
+      <td><strong>Sheet: <code>Kidscount Export</code></strong></td>
+      <td>Cleaned raw data downloaded from source</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2>📊 Tools Used</h2>
+  <ul>
+    <li>Microsoft Excel (PivotTables, Charts, Formatting)</li>
+    <li>Public data from <a href="https://datacenter.aecf.org/data/tables/10238-food-insecurity" target="_blank">KIDS COUNT Data Center</a></li>
+  </ul>
+
+  <hr>
+
+  <h2>📈 Visuals</h2>
+
+  <h3>📉 Trend in Child Food Insecurity (2018–2022)</h3>
+  <img src="line_chart.png" alt="Line Chart showing average food insecurity trend from 2018 to 2022">
+  <p><strong>Figure 1:</strong> Statewide child food insecurity peaked in 2020 at 16.8%, then declined in 2021–2022.</p>
+
+  <h3>🏆 Top 10 Kansas Counties by Food Insecurity (2020)</h3>
+  <img src="bar_chart.png" alt="Bar Chart showing top 10 counties with highest food insecurity in 2020">
+  <p><strong>Figure 2:</strong> Wyandotte, Montgomery, and Geary counties led in food insecurity in 2020, with rates exceeding 23%.</p>
+
+  <hr>
+
+  <h2>📥 Data Source</h2>
+  <p>
+    Data downloaded from:<br>
+    <a href="https://datacenter.aecf.org/data/tables/10238-food-insecurity" target="_blank">
+      https://datacenter.aecf.org/data/tables/10238-food-insecurity
+    </a>
+  </p>
+
+  <hr>
+
+  <h2>📘 Workbook Overview</h2>
+  <p>The <code>kansas_food_insecurity_cleaned.xlsx</code> Excel workbook contains a comprehensive analysis of child food insecurity rates across Kansas counties from 2018 to 2022. It includes:</p>
+  <ul>
+    <li>Cleaned and structured raw data imported from the KIDS COUNT Data Center.</li>
+    <li>PivotTables summarizing yearly average food insecurity rates statewide and detailed county-level statistics.</li>
+    <li>Visualizations such as line and bar charts highlighting trends over time and identifying the top 10 counties most affected in 2020.</li>
+    <li>An Analysis sheet providing key insights and findings, aimed at informing data-driven decisions around food security and community support programs.</li>
+  </ul>
+
+  <hr>
+
+  <h2>✍️ Author</h2>
+  <p><strong>Brenda Garza</strong><br>
+  Aspiring Data Analyst | Business Administration Graduate<br>
+  📍 Based in Fort Riley, KS</p>
+
 </body>
 </html>
