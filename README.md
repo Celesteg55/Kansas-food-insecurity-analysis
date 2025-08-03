@@ -56,7 +56,7 @@ Aspiring Data Analyst | Business Administration Graduate
 
 ## Workbook Overview
 
-The `kansas_food_insecurity_analysis.xlsx` Excel workbook contains a comprehensive analysis of child food insecurity rates across Kansas counties from 2018 to 2022. It includes:
+The `kansas_food_insecurity_cleaned.xlsx` Excel workbook contains a comprehensive analysis of child food insecurity rates across Kansas counties from 2018 to 2022. It includes:
 
 - Cleaned and structured raw data imported from the KIDS COUNT Data Center.
 - PivotTables summarizing yearly average food insecurity rates statewide and detailed county-level statistics.
