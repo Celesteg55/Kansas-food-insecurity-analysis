@@ -1,4 +1,4 @@
-# 📊 Kansas Child Food Insecurity Analysis (2018–2022)
+# Kansas Child Food Insecurity Analysis (2018–2022)
 
 This project analyzes child food insecurity rates across Kansas counties using public data from the Annie E. Casey Foundation’s KIDS COUNT Data Center. The goal is to identify trends over time, highlight high-risk counties, and summarize findings with clean visuals using Microsoft Excel.
 
