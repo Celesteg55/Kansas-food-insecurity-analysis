@@ -33,17 +33,17 @@ This project analyzes child food insecurity rates across Kansas counties using p
 
 ## 📈 Visuals
 
-### Trend in Child Food Insecurity (2018–2022)
+### 📉 Trend in Child Food Insecurity (2018–2022)
 
-![Line Chart showing average food insecurity trend from 2018 to 2022](images/Picture1.png)
+![Line Chart showing average food insecurity trend from 2018 to 2022](Picture1.png)
 
 > **Figure 1:** Statewide child food insecurity peaked in 2020 at 16.8%, then declined in 2021–2022.
 
 ---
 
-### Top 10 Kansas Counties by Food Insecurity (2020)
+### 🏆 Top 10 Kansas Counties by Food Insecurity (2020)
 
-![Bar Chart showing top 10 counties with highest food insecurity in 2020](images/Picture2.png)
+![Bar Chart showing top 10 counties with highest food insecurity in 2020](Picture2.png)
 
 > **Figure 2:** Wyandotte, Montgomery, and Geary counties led in food insecurity in 2020, with rates exceeding 23%.
 
